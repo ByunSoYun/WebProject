@@ -1,0 +1,339 @@
+@font-face {
+    font-family: 'Jal_Onuel';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/Jal_Onuel.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body {
+   margin: 0;
+   padding: 0;
+   background-color: #F8F8FA;
+}
+
+body {
+   margin-bottom: 50px;
+}
+
+body, table, th, td, a, p, div, span, li, button, input, textarea, select, option, h1, h2, h3, h4, h5, h6 {
+   color: #777;
+   font-family: 'Jal_Onuel' !important;
+}
+
+h1 {
+   font-size: 24px;
+   padding-bottom: 5px;
+   margin-bottom: 20px;
+   border-bottom: 1px solid #BBB;
+}
+
+h2 {
+   font-size: 20px;
+   padding-bottom: 5px;
+   margin-bottom: 15px;
+   border-bottom: 1px dashed #BBB;
+}
+
+h3 {
+   font-size: 16px;
+}
+
+.main-header {
+   /* border-bottom: 1px solid #777; */
+   box-shadow: 0px 3px 4px #BBB;
+   height: 80px;
+   background-color: #548CA8;
+}
+
+
+
+.main-header > section {
+   width: 1050px;
+   height: 45px;
+   margin: 0px auto;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.main-header > section > nav {
+   margin-top: 35px;
+}
+
+
+.main-header > section > nav > div {
+   display: flex;
+}
+
+.main-header > section > nav > ul {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+   display: flex;
+   align-items: center;
+}
+
+.main-header > section > nav > ul > li {
+   margin-right: 20px;
+   cursor: pointer;
+   justify-content: space-between;
+   align-items: center;
+   text-align: center;
+   padding: 3px;
+   color: #333;
+   width: auto;
+}
+
+.main-header > section > nav > ul > li > div {
+   cursor: pointer;
+   align-items: center;
+   color: #333;
+}
+
+
+
+.main-header > section > nav > ul > li:hover {
+   text-shadow: 2px 2px 2px #CCC;
+   color: white;
+}
+
+.main-header > section > nav > ul > li:first-child {
+   margin-right: 100px;
+} 
+
+
+
+.main-section {
+   width: 1050px;
+   margin: 35px auto;
+}
+
+.user-list > button {
+   display: block;
+   margin-bottom: 10px;
+}
+
+
+.main-section .table th, .main-section .table td {
+   text-align: center;
+   vertical-align: middle;   
+}
+
+.main-section .table th {
+   background-color: #EEE;
+}
+
+.btns {
+   margin: 5px 10px;
+}
+
+.short {
+   width: 120px;
+}
+
+.a {
+	width: 200px;
+	border: 2px solid #E1E5EA;
+	height: auto;
+}
+
+.b {
+	border-bottom: 2px solid #EEE;
+	padding: 15px;
+	text-align: center;
+}
+
+.b div {
+	margin-bottom: 5px;
+}
+
+.b input {
+	margin-top: 20px;
+	border-radius: 10px;
+}
+
+.c {
+	border-bottom: 2px solid #EEE;
+	padding: 15px;
+	text-align: center;
+}
+
+.c div {
+	margin-bottom: 5px;
+}
+
+.d {
+	border-bottom: 2px solid #EEE;
+	padding: 15px;
+}
+
+.d div {
+	margin-bottom: 5px;
+}
+
+.d div:nth-child(1) {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.e {
+	padding: 15px;
+}
+
+.e span {
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.container2 {
+	display: flex;
+}
+
+.f {
+	border: 3px solid #EEE;
+	margin-left: 30px;
+	height: 150px;
+	width: 900px;
+	padding: 15px;
+}
+
+.g > div:nth-child(1) {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.h {
+	display: flex;
+	margin-left: 30px;
+}
+
+.i {
+	margin-right: 70px;
+}
+
+.j {
+	margin-top: 20px;
+}
+
+.k {
+	border: 3px solid #EEE;
+	width: 900px;
+	height: auto;
+	margin-left: 230px;
+	position: relative;
+	top: -300px;
+}
+
+.l {
+	padding: 10px;
+}
+
+.l > div:nth-child(1) {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.m {
+	margin-top: 15px;
+	display: flex;
+}
+
+.n {
+	margin-right: 30px;
+}
+
+.myComment {
+	cursor: pointer;
+}
+
+.editbox {
+	border: 3px solid #EEE;
+	width: 800px;
+	position: relative;
+	top: -561px;
+	left: 250px;
+}
+
+.aa {
+	border-bottom: 1px solid #EEE;
+}
+
+.bb {
+	padding: 30px;
+	border-bottom: 2px solid #EEE;
+}
+
+.bb span {
+	font-size: 15px;
+}
+
+.bb select {
+	margin-left: 20px;
+	width: 60px;
+	font-size: 15px;
+	height: 25px;
+}
+
+.cc {
+	border-bottom: 2px solid #EEE;
+	padding: 30px;
+	font-size: 15px;
+}
+
+.cc select {
+	margin-left: 20px;
+	height: 25px;
+}
+
+.dd {
+	border-bottom: 2px solid #EEE;
+	padding: 30px;
+	font-size: 15px;
+}
+
+.dd select {
+	margin-left: 20px;
+	height: 25px;
+	width: 130px;
+}
+
+.ee {
+	border-bottom: 2px solid #EEE;
+	padding: 30px;
+	font-size: 15px;
+}
+
+.ee select {
+	margin-left: 20px;
+	height: 25px;
+	width: 140px;
+}
+
+.ff {
+	border-bottom: 2px solid #EEE;
+	padding: 30px;
+	font-size: 15px;
+}
+
+.ff select {
+	margin-left: 20px;
+	height: 25px;
+	width: 100px;
+}
+
+.gg {
+	padding: 30px;
+	font-size: 15px;
+}
+
+.gg select {
+	margin-left: 20px;
+	height: 25px;
+	width: 100px;
+}
+
+.btns {
+	position: relative;
+	left: 880px;
+	top: -550px;
+}
